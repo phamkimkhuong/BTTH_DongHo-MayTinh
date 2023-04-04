@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+}
+#clock{
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 500px;
+    height: 500px;
+    border:30px solid rgb(87, 84, 84);
+    background-color: aliceblue;
+    border-radius: 100%;
+    margin-bottom: 200px;
+}
+#cirle{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 360px;
+    height: 370px;
+    border-radius: 50%;
+}
+#cirle > div {
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+}
+#central{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: 250px;
+    margin-left: 250px;
+}
+#min{
+    position: absolute;
+    width: 220px;
+    height: 4px;
+    background-color: black;
+    margin-top: 255px;
+    margin-left: 220px;
+
+}
+#second{
+    position: absolute;
+    width: 8px;
+    height: 180px;
+    background-color: black;
+    margin-top: 230px;
+    margin-left: 253px;
+}
+#hour{
+    position: absolute;
+    width: 13px;
+    height: 150px;
+    background-color: black;
+    margin-top: 140px;
+    transform: rotate(-30deg);
+    margin-left: 225px;
+}
+#cirle  div:nth-child(12){
+    top: 5%;
+    left: 50%;
+    right: 100%;
+    transform: translateX(-50%)translateY(-100%)rotate(0deg);
+}
+#cirle  div:nth-child(1){
+    top: 10%;
+    left: 80%;
+    right: 100%;
+    transform: translateX(-50%)translateY(-100%);
+}
+#cirle  div:nth-child(2){
+    top: 20%;
+    left: 100%;
+    right: 100%;
+    transform: translateX(-50%)translateY(10%)rotate(0deg);
+}
+#cirle  div:nth-child(3){
+    top: 50%;
+    left: 110%;
+    right: 100%;
+    transform: translateX(-50%)translateY(10%);
+}
+#cirle  div:nth-child(4){
+    top: 80%;
+    left: 100%;
+    right: 100%;
+    transform: translateX(-50%)translateY(10%);
+}
+#cirle  div:nth-child(5){
+    top: 100%;
+    left: 80%;
+    right: 100%;
+    transform: translateX(-50%)translateY(10%);
+}
+#cirle  div:nth-child(6){
+    top: 105%;
+    left: 50%;
+    right: 100%;
+    transform: translateX(-50%)translateY(10%)rotate(0deg);
+}
+#cirle  div:nth-child(7){
+    top: 100%;
+    left: 20%;
+    right: 100%;
+    transform: translateX(-50%)translateY(10%)rotate(0deg);
+}
+#cirle  div:nth-child(8){
+    top: 80%;
+    left: 0%;
+    right: 100%;
+    transform: translateX(-50%)translateY(10%)rotate(0deg);
+}
+#cirle  div:nth-child(9){
+    top: 50%;
+    right: 100;
+    transform: translateX(-190%)translateY(10%)rotate(0deg);
+}
+#cirle  div:nth-child(10){
+    top: 20%;
+    left: calc(10%-100px);
+    right: 100%;
+    transform: translateX(50%)translateY(10%)rotate(0deg);
+}
+#cirle  div:nth-child(11){
+    top: -5%;
+    left: 5%;
+    transform: translateX(100%)translateY(10%)rotate(0deg);
+}
+ 
